@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>onclick</title>
+</head>
+<body>
+    <div>
+        <button onclick="document.body.style.backgroundColor='black'">click:black</button>
+    </div>
+    <div>
+        <button onclick="makeColorGreen()">click:black</button>
+    </div>
+    <div>
+        <button id="yellow-color">click:black</button>
+    </div>
+    <div>
+        <button id="blue-color">click:black</button>
+    </div>
+    <div>
+        <button id="goldenrod-color">click:black</button>
+    </div>
+
+
+    <!-----------add Event ---------->
+    <button id="add-event">click</button>
+    <p id="add-text"></p>
+
+    <!-----------update add Event ---------->
+    <div>
+    <input id="input-text" type="text">
+    <p id="update-add-text"></p>
+    <button id="update-event">click</button>
+    </div>
+    <br>
+     <!----------- add Event comment ---------->
+    <div>
+        <div id="cmnt-container"></div>
+        <textarea id="add-comment" cols="50" rows="10" type="text"></textarea>
+        
+        <button id="event-cmnt">click</button>
+      
+    </div>
+
+     <!----------- delete text ---------->
+     
+     <div>
+         <h2 id="delete-text">i am a student</h2>
+         <input  id="delete-confirm" type="text" placeholder="please type delete">
+         <button id="delete-btn" disabled>delete</button>
+     </div>
+
+
+    <script src="onclick_handler.js"></script>
+    <script src="add_event.js"></script>
+    <script src="delete_text.js"></script>
+    <script>
+   
+  
+    
+    </script>
+</body>
+</html>
